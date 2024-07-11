@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Template 1 - Nikahkuy</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Bootstrap link css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ledger&display=swap" rel="stylesheet">
+
+    <!-- Countdown -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.29.1/moment.min.js"></script>
+</head>
+
+<body>
+
+    <!-- background fixed -->
+    <div class="bg min-vh-100 w-100 position-fixed" style="z-index: -1;">
+        <object class="position-absolute" style="left: -70px; top: 180px;" width="" height=""
+            data="assets/hero/cloud.svg"></object>
+        <object class="position-absolute" style="left: -70px; bottom: 80px;" width="" height=""
+            data="assets/hero/cloud.svg"></object>
+        <object class="position-absolute" style="right: -5px; top: 65px;" width="100"
+            data="assets/hero/cloud.svg"></object>
+
+        <!-- <object data="assets/hero/corner.svg" class="position-absolute" style="top: 4%; left: 4%;" type=""></object> -->
+
+        <span class="w-50 position-absolute line"
+            style="height: 1px; top: 5%; left: 50%; transform: translate(-50%, -50%);"></span>
+        <span class="w-50 position-absolute line"
+            style="height: 1px; bottom: 5%; left: 50%; transform: translate(-50%, -50%);"></span>
+
+        <span class="h-75 position-absolute line"
+            style="width: 1px; left: 5%; top: 50%; transform: translate(-50%, -50%);"></span>
+        <span class="h-75 position-absolute line"
+            style="width: 1px; right: 5%; top: 50%; transform: translate(-50%, -50%);"></span>
+    </div>
+
+    <!-- hero -->
+    <section class="position-relative vh-100" id="hero">
+        <div class="container text-white">
+            <div class="row">
+                <div class="col-12">
+                    <div class="min-vh-100 d-flex flex-column align-items-center justify-content-center text-center">
+                        <div class="position-relative">
+                            <h1 class="font-italianno bride-text position-absolute">Siti & Muhamad</h1>
+                            <object width="200" data="assets/hero/wayang-gunungan.svg" type=""></object>
+                        </div>
+                        <p>Kepada YTH. <br> Bapak/Ibu/Saudara/i</p>
+                        <p class="text-golden-brown">Tamu Undangan</p>
+                        <a class="btn btn-lg btn-open-invitation px-4" onclick="openInvitation()"
+                            href="#quotes">Open
+                            Invitation</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- quotes -->
+    <section id="quotes" class="min-vh-100">
+        <div class="container p-4 text-white">
+            <div class="min-vh-100 d-flex flex-column justify-content-center align-items-center text-center px-5">
+                <p class="font-ledger" style="font-size: 12px;">Dan diantara tanda-tanda (kebesaran)-Nya ialah bahwa Dia
+                    menciptakan pasangan-pasangan untukmu dari (jenis) dirimu sendiri agar kamu merasa tenteram
+                    kepadanya. Dia menjadikan di antaramu rasa cinta dan kasih sayang. Sesungguhnya pada yang demikian
+                    itu benar-benar terdapat tanda-tanda (kebesaran Allah) bagi kaum yang berpikir.</p>
+                <p class="font-ledger">Q.S AR-RUM 30:21</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- mempelai -->
+    <section id="mempelai" class="min-vh-100">
+        <div class="container">
+            <div
+                class="min-vh-100 d-flex flex-column justify-content-center align-items-center text-white text-center px-5">
+                <h1 class="font-italianno text-yellow-gradient">Assalamulaikum Wr.Wb</h1>
+                <p class="font-ledger" style="font-size: 12px;">Dengan memohon Rahmat dan Ridho Allah SWT kami bermaksud
+                    untuk mengundang Bapak/Ibu/Saudara/i untuk menghadiri acara pernikahan kami:</p>
+
+                <div class="d-flex flex-column align-items-center mt-3" style="line-height: 0.5;">
+                    <h1 class="font-italianno text-yellow-gradient" style="font-size: 50px;">Siti</h1>
+                    <p style="font-size: 18px;">Siti Astiya Nurhayati</p>
+                    <small class="font-ledger" style="font-size: 12px;">Putri ke 3 bapak Taufik dan ibu Yoyoh</small>
+                    <a class="btn btn-open-invitation mt-3 px-4 d-flex align-items-center gap-2" href="https://www.instagram.com/astiyanurha/" target="_blank"><object class="text-white" data="assets/icons/instagram.svg" type=""></object>Instagram</a>
+                </div>
+                <h1 class="font-italianno text-yellow-gradient my-3" style="font-size: 50px;">&</h1>
+                <div class="d-flex flex-column align-items-center" style="line-height: 0.5;">
+                    <h1 class="font-italianno text-yellow-gradient" style="font-size: 50px;">Muhamad</h1>
+                    <p style="font-size: 18px;">Muhamad Dwi Putra Novriansyah</p>
+                    <small class="font-ledger" style="font-size: 12px;">Putri ke 3 bapak Deny dan ibu Sri</small>
+                    <a class="btn btn-open-invitation mt-3 px-4 d-flex align-items-center gap-2" href="https://www.instagram.com/dwiputra.09/" target="_blank"><object class="text-white" data="assets/icons/instagram.svg" type=""></object>Instagram</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- acara -->
+    <section id="acara" class="min-vh-100">
+        <div class="container">
+            <div
+                class="min-vh-100 d-flex flex-column justify-content-center align-items-center text-white text-center px-5">
+                <h1 class="font-italianno text-yellow-gradient" style="font-size: 50px;">Save the Date</h1>
+                <p class="font-ledger text-yellow-gradient" style="font-size: 18px;">Undangan:</p>
+
+                <div class="row">
+                    <div class="col-4">
+                        <div class="d-flex h-100 justify-content-center align-items-center">
+                            <p style="font-size: 16px;">Minggu</p>
+                        </div>
+                    </div>
+                    <div class="col-4 middle">
+                        <div class="d-flex h-100 justify-content-center align-items-center">
+                            <p style="font-size: 40px;">25</p>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="d-flex h-100 justify-content-center align-items-center">
+                            <p style="font-size: 16px;">Februari 2030</p>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="font-ledger mt-5" style="font-size: 14px;">Pukul 08.00 sd Selesai</p>
+                <p class="font-ledger text-golden-brown" style="font-size: 14px;">Rumah Kediaman Mempelai Wanita</p>
+
+                <div class="d-flex justify-content-center gap-3">
+                    <div class="bg-golden-brown rounded-2 p-2" style="width: 65px;">
+                        <div class="d-flex flex-column justify-content-center align-items-center text-black">
+                            <span class="font-ledger" id="days"></span>
+                            <span class="font-ledger">Hari</span>
+                        </div>
+                    </div>
+                    <div class="bg-golden-brown rounded-2 p-2" style="width: 65px;">
+                        <div class="d-flex flex-column justify-content-center align-items-center text-black">
+                            <span class="font-ledger" id="hours"></span>
+                            <span class="font-ledger">Jam</span>
+                        </div>
+                    </div>
+                    <div class="bg-golden-brown rounded-2 p-2" style="width: 65px;">
+                        <div class="d-flex flex-column justify-content-center align-items-center text-black">
+                            <span class="font-ledger" id="minutes"></span>
+                            <span class="font-ledger">Menit</span>
+                        </div>
+                    </div>
+                    <div class="bg-golden-brown rounded-2 p-2" style="width: 65px;">
+                        <div class="d-flex flex-column justify-content-center align-items-center text-black">
+                            <span class="font-ledger" id="seconds"></span>
+                            <span class="font-ledger">Detik</span>
+                        </div>
+                    </div>
+                </div>
+                <a class="btn btn-open-invitation mt-4 px-4 d-flex align-items-center gap-2" href="">
+                    <object data="assets/icons/calendar-heart.svg" type=""></object>
+                    <span>Add to Calender</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- footbar -->
+    <nav class="navbar position-fixed w-100" style="bottom: 0;">
+        <div class="container-fluid">
+            <div class="navbar-nav w-100 d-flex flex-row justify-content-evenly">
+                <a class="nav-link text-white active d-flex flex-column align-items-center" aria-current="page"
+                    href="#hero">
+                    <object data="assets/icons/envelope.svg" type="" height="30"></object>
+                    <span class="font-ledger mt-1" style="font-size: 8px;">Offering</span>
+                </a>
+                <a class="nav-link text-white active d-flex flex-column align-items-center" aria-current="page"
+                    href="#quotes">
+                    <object data="assets/icons/chat-message-love.svg" type="" height="30"></object>
+                    <span class="font-ledger mt-1" style="font-size: 8px;">Quotes</span>
+                </a>
+                <a class="nav-link text-white active d-flex flex-column align-items-center" aria-current="page"
+                    href="#mempelai">
+                    <object data="assets/icons/love.svg" type="" height="30"></object>
+                    <span class="font-ledger mt-1" style="font-size: 8px;">Mempelai</span>
+                </a>
+                <a class="nav-link text-white active d-flex flex-column align-items-center" aria-current="page"
+                    href="#acara">
+                    <object data="assets/icons/clock.svg" type="" height="30"></object>
+                    <span class="font-ledger mt-1" style="font-size: 8px;">Acara</span>
+                </a>
+                <a class="nav-link text-white active d-flex flex-column align-items-center" aria-current="page"
+                    href="#">
+                    <object data="assets/icons/maps.svg" type="" height="30"></object>
+                    <span class="font-ledger mt-1" style="font-size: 8px;">Maps</span>
+                </a>
+                <a class="nav-link text-white active d-flex flex-column align-items-center" aria-current="page"
+                    href="#">
+                    <object data="assets/icons/chat-heart.svg" type="" height="30"></object>
+                    <span class="font-ledger mt-1" style="font-size: 8px;">Ucapan</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Bootstrap script js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+
+    <script src="js/script.js"></script>
+    <script src="js/preloader.js"></script>
+</body>
+
+</html>

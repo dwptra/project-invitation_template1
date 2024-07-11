@@ -1,0 +1,91 @@
+:root {
+    --yellow-gradient: rgb(232, 172, 77);
+    --golden-brown: #E4AF59;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bg {
+    background-color: black;
+}
+.bg .line {
+    background-color: var(--golden-brown);
+}
+
+.bg-golden-brown {
+    background-color: var(--golden-brown);
+}
+
+.navbar {
+    background-color: black !important;
+    border: 1px solid var(--yellow-gradient) !important;
+    border-radius: 20px 20px 0 0 !important;
+}
+.navbar span {
+    color: var(--yellow-gradient);
+}
+
+#hero {
+    overflow: hidden;
+}
+
+.font-italianno {
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.font-ledger {
+    font-family: "Ledger", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.bride-text {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 180px;
+
+    font-size: 35px;
+    color: var(--yellow-gradient);
+    background-color: black;
+    box-shadow: 0 0 20px 20px black;
+    border-radius: 10px;
+}
+
+.text-golden-brown {
+    color: var(--golden-brown);
+}
+.text-yellow-gradient {
+    color: var(--yellow-gradient);
+}
+
+p {
+    font-size: 16px;
+}
+
+.btn-open-invitation {
+    background-color: var(--yellow-gradient) !important;
+    color: black !important;
+    border-radius: 50px !important;
+    transition: 1s;
+}
+
+.btn-open-invitation:hover {
+    background-color: var(--yellow-gradient) !important;
+    color: black !important;
+    border-radius: 10px !important;
+}
+
+#acara .middle {
+    border-left: 1px solid var(--golden-brown);
+    border-right: 1px solid var(--golden-brown);
+}
