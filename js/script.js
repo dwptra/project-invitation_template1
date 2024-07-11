@@ -5,7 +5,6 @@ function detectScrollY() {
   var scrollY = window.scrollY;
 
   if (scrollY < 1) {
-    scrollTo(scrollY, 0);
     body.classList.add("max-vh-100", "overflow-hidden");
     footbar.classList.add("d-none");
   } else {
